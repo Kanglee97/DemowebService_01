@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtHoTen"
+        android:textStyle="bold"
+        android:textColor="#0d00ff"
+        android:textSize="20sp"
+        android:text="HoTenSinhVien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtHoTen"
+        android:id="@+id/txtNamSinh"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="19sp"
+        android:text="Nam sinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/txtHoTen"
+        android:id="@+id/txtDiaChi"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="19sp"
+        android:text="Dia chi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:padding="5dp"
+        android:id="@+id/imgviewEdit"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:src="@android:drawable/ic_menu_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:padding="5dp"
+        android:id="@+id/imgviewDelete"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/imgviewEdit"
+        android:src="@android:drawable/ic_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
